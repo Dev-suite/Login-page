@@ -64,3 +64,10 @@ function check() {
         alert('Error on login');
     }
 }
+
+var btn = document.querySelector(".btn-reload");
+
+btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.location.replace("https://www.google.com");
+});
